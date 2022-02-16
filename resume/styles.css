@@ -4,3 +4,8 @@ html {
       font color: #444;
 }
 /* This is the font for the resume and the fallback fonts */
+
+#myname {
+      font-size: 3.5em;
+      font-color: #33485e;
+}
