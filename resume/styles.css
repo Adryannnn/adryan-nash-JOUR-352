@@ -1,11 +1,11 @@
 html {
       font-family: 'Open Sans',sans-serif, Arial;
       font-size: 1em;
-      font color: #444;
+      color: #444;
 }
 /* This is the font for the resume and the fallback fonts */
 
 #myname {
       font-size: 3.5em;
-      font-color: #33485e;
+      color: #33485e;
 }
