@@ -8,4 +8,14 @@ html {
 #myname {
       font-size: 3.5em;
       color: #33485e;
+      text-transform: uppercase;
+      text-align: center;
 }
+/* elements for my name */
+
+#mytitle {
+      font-size: 3.5em;
+      color:#33485e;
+      text-transform: uppercase;
+}
+/* elements for my title */
