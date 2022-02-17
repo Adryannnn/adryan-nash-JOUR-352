@@ -1,9 +1,12 @@
+/* styles for my resume */
+
 html {
       font-family: 'Open Sans',sans-serif, Arial;
       font-size: 1em;
+      font-weight: 400;
       color: #444;
 }
-/* This is the font for the resume and the fallback fonts */
+/* This is the font for the resume and the fallback fonts; MAIN FONT WEIGHT IS 400.*/
 
 #myname {
       font-size: 3.5em;
@@ -14,8 +17,33 @@ html {
 /* elements for my name */
 
 #mytitle {
-      font-size: 3.5em;
+      font-size: 2em;
       color:#33485e;
       text-transform: uppercase;
 }
 /* elements for my title */
+
+.SECTION {
+      font-size: 1.5em;
+      font-transform: uppercase;
+      color: white;
+      background-color: #33485e;
+}
+/* elements for section headers */
+
+.JOBtitle {
+      font-weight: 600;
+      font-size: 2em;
+}
+/* elements for job titles */
+.org {
+      font-size: 1.5em;
+}
+/*  elements fot organizations */
+
+.time {
+      font-size: 1em;
+      font-style:
+
+}
+/* elemwnrts for time at orginations  */
