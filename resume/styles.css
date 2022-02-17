@@ -44,7 +44,11 @@ html {
 
 .time {
       font-size: 1em;
-      font-style:
+      font-style: italic;
 
 }
 /* elemwnrts for time at organizations  */
+
+span.thickies {
+      font-weight: bold;
+}
