@@ -6,7 +6,7 @@ html {
       font-weight: 400;
       color: #444;
 }
-/* This is the font for the resume and the fallback fonts; MAIN FONT WEIGHT IS 400.*/
+/* This is the font for the resume and the fallback fonts; MAIN FONT WEIGHT IS 400 */
 
 #myname {
       font-size: 3.5em;
@@ -22,7 +22,7 @@ html {
       text-transform: uppercase;
       text-align: center;
 }
-/* elements for my title; decided to put title center it looked nice to me. */
+/* elements for my title; decided to put title center it looked nice to me */
 
 .SECTION {
       font-size: 1.5em;
@@ -47,8 +47,9 @@ html {
       font-style: italic;
 
 }
-/* elemwnrts for time at organizations  */
+/* elements for time at organizations  */
 
-span.thickies {
-      font-weight: bold;
+.thickies {
+      font-weight: bolder;
 }
+/* elements for making certain data stand out  */
