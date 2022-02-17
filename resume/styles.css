@@ -20,8 +20,9 @@ html {
       font-size: 2em;
       color:#33485e;
       text-transform: uppercase;
+      text-align: center;
 }
-/* elements for my title */
+/* elements for my title; decided to put title center it looked nice to me. */
 
 .SECTION {
       font-size: 1.5em;
