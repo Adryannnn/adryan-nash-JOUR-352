@@ -29,8 +29,9 @@ html {
       font-transform: uppercase;
       color: white;
       background-color: #33485e;
+      margin: -8px;
 }
-/* elements for section headers */
+/* elements for section headers; shrinked margins for fun */
 
 .JOBtitle {
       font-weight: 600;
