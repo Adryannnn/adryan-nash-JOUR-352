@@ -8,11 +8,23 @@ html {
 }
 /* This is the font for the resume and the fallback fonts; MAIN FONT WEIGHT IS 400 */
 
+#container {
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+/* elements for page container */
+
 #myname {
       font-size: 3.5em;
       color: #33485e;
       text-transform: uppercase;
       text-align: center;
+      border-bottom: 2px solid;
+      margin: 0 auto;
+      width: 60%;
+      min-width: 300px;
 }
 /* elements for my name */
 
@@ -21,6 +33,11 @@ html {
       color:#33485e;
       text-transform: uppercase;
       text-align: center;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
 }
 /* elements for my title; decided to put title center it looked nice to me */
 
@@ -29,26 +46,81 @@ html {
       font-transform: uppercase;
       color: white;
       background-color: #33485e;
-      margin: -8px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 70%;
+      min-width: 300px;
 }
-/* elements for section headers; shrinked margins for fun */
+/* elements for section headers */
 
 .JOBtitle {
       font-weight: 600;
       font-size: 2em;
 }
 /* elements for job titles */
+
 .org {
-      font-size: 1.5em;
+      font-size: 1em;
 }
-/*  elements for organizations */
+/*  elements for organizations; "organization" in assignment description */
 
 .time {
       font-size: 1em;
       font-style: italic;
-
+      margin-top: 3px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
 }
-/* elements for time at organizations  */
+/* elements for time at organizations; "date" in the assignment description */
+
+.menu {
+      margin: 0px auto;
+      padding: 0px;
+      text-align: center;
+      list-style-type: none;
+}
+/* elements for contact information to display in-line */
+
+.menu li {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      display: inline-block;
+}
+/* elements for contact information LIST; REMEMBER: You have to call for "li" for it to work in the future [note to self] */
+
+.description {
+      margin: 10px 0px;
+}
+/* elements for description margins  */
+
+#degree {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* elements for degree margins  */
+
+#DO {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* elements for skills margin  */
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/* elements for mission statement */
+
 
 .thickies {
       font-weight: bolder;
