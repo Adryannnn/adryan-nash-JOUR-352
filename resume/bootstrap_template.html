@@ -3,7 +3,7 @@
 <head>
       <meta charset="utf-8">
       <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-      <title> Skate! Newsletters </title>
+      <title> Skate! Newsletter </title>
       <meta name="description" content="Merrill College of Journalism, UMD">
       <meta name="author" content="Adryan Nash">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -13,41 +13,15 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
-<!--Start of added font-->
+<!--End of added font-->
 
 
-<!--Start of styles-->
-      <style>
-
-      html * {
-      font-family: 'Special Elite', cursive;
-      }
-
-      .bi {
-        font-size:3em;
-      }
-
-      .col-md-4 {
-        text-align: center;
-
-      }
-
-      .col-10 col-sm-8 col-lg-6 {
-        width:100%;
-        max-width: 500px;
-        margin: 0 auto;
-      }
-
-      img {
-        max-width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-      }
+<link rel="stylesheet.css" type="text/css" href="styles_.css"/>
 
 
 
-      </style>
-<!--End of styles-->
+<!-- Add bootstrap icons (it's basically a custom font) -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 </head>
 
@@ -60,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Skate! Newsletters</a>
+            <a class="navbar-brand" href="#"> Skate! Newsletters </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Current issues</a>
@@ -78,41 +52,41 @@
       </nav>
     <!--End of navigation bar -->
 
-
-    <!--How "heroes" start-->
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-  <div class="col-10 col-sm-8 col-lg-6">
-    <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-  </div>
-
-  <div class="col-lg-6">
-    <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-
-    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+  <!--How "heroes" start-->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="100%" height="500px" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          </div>
+        </div>
+      </div>
     </div>
-
-  </div>
-</div>
 <!--How heroes end --->
+
 
 
 <!--lines w/ text  --->
 <div class="container">
         <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
 
                         <h2>Heading 1</h2>
                         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. <img src="bootleg-tonyhawk.jpeg"> </p>
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-6">
 
                         <h2>Heading 2</h2>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.<img src="kickflip.jpeg"> </p>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor. <br>
+                          <img src="kickflip.jpeg"> </p>
                 </div>
 
 
