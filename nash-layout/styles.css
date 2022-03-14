@@ -1,15 +1,81 @@
-/*styles for midterm assignment*/
+/* styles for midterm assignment */
 html {
-
+        color: white;
 }
 
-#content {
+#container {
         Margin: 0 auto;
         width: 900px;
 }
 
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Megrim', cursive;
-font-family: 'Poiret One', cursive;
+body {
+      font-family: 'Poiret One', cursive, Helvetica, sans-serif;
+      font-size: 20px;
+      background-color: black;
+      line-height: 1.5;
+      text-align: justify;
 
-Link for image https://www.forbes.com/sites/jamiecartereurope/2018/09/26/face-east-this-weekend-to-eye-the-trillion-star-andromeda-galaxy/?sh=e0a9e826882b
+}
+
+#newTITLE {
+      font-family: 'Megrim', cursive,Helvetica, sans-serif;
+      text-align: center;
+      color: white;
+      height: 100%;
+      margin: 0;
+      font-size: 60px;
+}
+
+#caption {
+      font-size: 16px;
+      text-align: center;
+}
+
+.body-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote {
+      font-family: 'Fredericka the Great', cursive, Helvetica, sans-serif;
+      font-size: 30px;
+      text-align: center;
+
+}
+
+.baby-moon {
+      float: right;
+      width: 350px;
+      height:300px;
+      margin-left:-15px;
+}
+
+.footsies{
+  padding:-2px
+}
+
+/*used colors in Arab flag; https://www.schemecolor.com/arabic-colors.php */
+a:link {
+  color: #007A3D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #CE1225;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:#FCB221;
+  background-color: transparent;
+  text-decoration: underline;
+}
