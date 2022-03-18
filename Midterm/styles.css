@@ -1,6 +1,6 @@
 /* styles for midterm Pt.2 assignment */
 body {
-  background-color:#d4d3cf;
+  background-color:#dbdbd9;
 }
 
 h1 {
@@ -20,7 +20,19 @@ p {
         line-height: 1.5;
         text-align: justify;
 }
+.body-images{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: auto;
+}
+#human-lazer{
 
+}
+.cap-align{
+        text-align: center;
+}
 .embed-it {
           display: block;
           margin-left: auto;
@@ -32,14 +44,4 @@ p {
 .quote {
       font-size: 30px;
       text-align: center;
-}
-
-#TOP-right {
-  float:right;
-  text-align: right;
-
-
-#TOP-left {
-  float: left;
-
 }
