@@ -27,12 +27,12 @@ p {
         width: 80%;
         height: auto;
 }
-#human-lazer{
 
-}
-.cap-align{
+
+.cap-align {
         text-align: center;
 }
+
 .embed-it {
           display: block;
           margin-left: auto;
@@ -44,4 +44,28 @@ p {
 .quote {
       font-size: 30px;
       text-align: center;
+}
+
+a:link {
+  color: Black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: underline;
 }
