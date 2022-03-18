@@ -1,1 +1,34 @@
 /* styles for midterm Pt.2 assignment */
+body {
+  background-color: #f4f8fb;
+}
+h1 {
+    font-family: Garamound ; Helvetica, Arial, Sans-serif;
+    font-size: 60px;
+    text-align: Left;
+}
+
+p {
+        font-family: Helvetica, Arial, Sans-serif;
+        font-size: 12px:
+  }
+
+#container {
+        Margin: 0 auto;
+        width: 1000px;
+        line-height: 1.5;
+        text-align: justify;
+}
+
+.embed-it {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width:5px;
+          height:10px;
+}
+
+.quote {
+      font-size: 30px;
+      text-align: center;
+}
