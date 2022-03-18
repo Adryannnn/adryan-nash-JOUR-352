@@ -2,10 +2,11 @@
 body {
   background-color: #f4f8fb;
 }
+
 h1 {
     font-family: Garamound ; Helvetica, Arial, Sans-serif;
     font-size: 60px;
-    text-align: Left;
+
 }
 
 p {
@@ -31,4 +32,14 @@ p {
 .quote {
       font-size: 30px;
       text-align: center;
+}
+
+#TOP-right {
+  float:right;
+  text-align: right;
+
+
+#TOP-left {
+  float: left;
+
 }
