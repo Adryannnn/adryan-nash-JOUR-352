@@ -1,0 +1,21 @@
+/* Start of styles for expanded Resume Project  */
+
+body {
+    font-family: 'Thasadith', sans-serif;
+    size: 35px;
+    text-align:justify;
+    padding: 40px;
+    margin:
+}
+/* defaults for webpage body*/
+
+#flex-container {
+  float: right;
+  display: flex;
+
+}
+
+#content{
+
+  display: flex;
+}
