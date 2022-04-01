@@ -4,18 +4,18 @@ body {
     font-family: 'Thasadith', sans-serif;
     size: 35px;
     text-align:justify;
-    padding: 40px;
+
     margin:
 }
 /* defaults for webpage body*/
 
-#flex-container {
-  float: right;
-  display: flex;
-
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bad Script', sans-serif;
 }
 
-#content{
-
-  display: flex;
+.content {
+  text-align: center;
+  
 }
