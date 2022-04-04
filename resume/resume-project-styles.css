@@ -5,7 +5,6 @@ body {
     size: 35px;
     text-align:justify;
 
-    margin:
 }
 /* defaults for webpage body*/
 
@@ -13,44 +12,70 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-family: 'Bad Script', sans-serif;
+    padding: 15px;
 }
 
+h2 {
+    font-style: italic;
+}
 .topper {
     max-width: 90%;
     align: center;
+    margin-left: 190px; /* Same width as the sidebar + left position in px */
+    margin-right: 60px;
+
 }
 /* styles for navbar from W3 Schools */
-.sidenav {
-height: 100%;
-width: 160px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #111;
-overflow-x: hidden;
-padding-top: 20px;
+    .sidenav {
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 20px;
+      left: 10px;
+      background-image:linear-gradient(rgb(101,95,95), rgb(19,10,9));
+      overflow-x: hidden;
+      padding: 8px 8px;
+    }
+
+    .sidenav a {
+      padding: 6px 8px 6px 10px;
+      text-decoration: none;
+      font-size: 25px;
+      font-family: 'Bad Script', sans-serif;
+      font-weight: bold;
+      color: #eeee;
+      display: block;
+    }
+
+    .sidenav a:hover {
+      color:silver;
+    }
+
+    .main {
+      margin-left: 230px; /* Same width as the sidebar + left position in px */
+      margin-right: 20px;
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+/* end of styles for navbar from W3 Schools */
+
+.school-info li {
+    display: inline-block;
+    padding: 5px;
+
 }
 
-.sidenav a {
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #818181;
-display: block;
+#four-corners  {
+  margin-left: 250px;
 }
 
-.sidenav a:hover {
-color: #f1f1f1;
-}
 
-.main {
-margin-left: 160px; /* Same as the width of the sidenav */
-font-size: 28px; /* Increased text to enable scrolling */
-padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
+.footsies {
+  background-image:linear-gradient(rgb(101,95,95), rgb(19,10,9));
+  margin: -50px;
 }
