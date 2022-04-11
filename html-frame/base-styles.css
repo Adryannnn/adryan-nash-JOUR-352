@@ -1,25 +1,49 @@
 /*STYLES FOR ___ */
 
-#byline {
+/* */
 
+#byline {
+font-weight: bold;
+font-size: 1.75em;
+font-style: italic;
+padding: 20px;
 }
 /* */
 
 #story-title {
-
+font-size: 4em;
+text-align:center;
+padding: 10px 10px;
 }
 /* */
 
-.IMAGE {
-  max-width: 2%
+.main-text {
+  text-align:justify;
+  margin-left: 100px;
+
+
+}
+
+.IMAGE  {
   display: block;
+  height: 400px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+
+}
+/* */
+img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
 }
 /* */
 
-.chapter-head {
+.section-head  {
+  font-size: 1.5em;
+  padding: 20px;
+
 
 }
 /* */
