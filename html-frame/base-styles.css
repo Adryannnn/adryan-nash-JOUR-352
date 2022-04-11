@@ -1,0 +1,37 @@
+/*STYLES FOR ___ */
+
+#byline {
+
+}
+/* */
+
+#story-title {
+
+}
+/* */
+
+.body-images {
+  max-width: 100%
+  size: 50%;
+}
+/* */
+
+.chapter-head {
+
+}
+/* */
+
+.footer {
+  background: #212529;
+  height: 100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+/* */
+
+.footer p {
+  color: white;
+
+}
+/* */
