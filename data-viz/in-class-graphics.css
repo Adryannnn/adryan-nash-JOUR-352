@@ -1,4 +1,4 @@
-body{
+body {
 padding-left: 30px;
 padding-right:30px;
 padding-bottom:30px;
@@ -15,7 +15,7 @@ padding-bottom:30px;
 }
 /*section headings */
 
-#byline{
+#byline {
   font-style: italic;
   font-weight: bold;
   padding-top: 20px;
