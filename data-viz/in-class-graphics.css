@@ -1,0 +1,24 @@
+body{
+padding-left: 30px;
+padding-right:30px;
+padding-bottom:30px;
+
+}
+/*for page padding so charts don't overlap*/
+
+.section-head  {
+  font-size: 4em;
+  padding: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*section headings */
+
+#byline{
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*byline styles*/
