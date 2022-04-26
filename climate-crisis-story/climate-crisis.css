@@ -1,10 +1,103 @@
 /*Styles for Climate change assignment*/
 body{
+background-color: #e5dfed;
+font-family:'Optima', sans-serif;
+}
+/**/
+
+p {
+  font-size: 2em;
+}
+/**/
+
+.topntext {
+  text-align:left;
+
+}
+/*style for topper image*/
+
+.alpha-top{
+  width: 100%;
+}
+/**/
+
+.codename {
+  color: white;
+  background-color: black;
+  opacity: .7;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-size: 2em;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+/*top box with "code red" */
+
+.caption {
+  font-style: italic;
+  font-size: 1.25em;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 25px;
 
 }
 /**/
 
-.alpha-top {
-  width: 100%;
+.footnote{
+  font-style: italic;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
-/*style for topper image*/
+.title {
+  color: white;
+  background-color: black;
+  opacity: .6;
+  position: absolute;
+  bottom: -5px;
+  left: 395px;
+  right: 0px;
+  font-size: 3.8em;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+/**/
+.title p {
+  opacity: 1;
+}
+
+
+
+/**/
+
+
+/**/
+.spicy {
+  color: red;
+  font-weight: 900;
+  font-family:'DM Serif Display', serif;
+  text-transform: uppercase;
+
+}
+/**/
+
+.sec-head {
+  font-family: 'DM Serif Display', serif;
+  margin-top: 85px;
+  margin-bottom: 25px;
+  border-bottom: 5px solid red;
+  text-align:center;
+  font-size: 4em;
+}
+/**/
+
+.byline-sealine {
+  font-family: 'DM Serif Display', serif;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+/**/
