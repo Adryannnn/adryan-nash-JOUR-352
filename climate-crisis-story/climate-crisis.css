@@ -3,12 +3,12 @@ body{
 background-color: #e5dfed;
 font-family:'Optima', sans-serif;
 }
-/**/
+/*for default body elements*/
 
 p {
   font-size: 2em;
 }
-/**/
+/*for body text in container*/
 
 .topntext {
   text-align:left;
@@ -19,7 +19,7 @@ p {
 .alpha-top{
   width: 100%;
 }
-/**/
+/*banner image at top of webpage*/
 
 .codename {
   color: white;
@@ -44,19 +44,21 @@ p {
   margin-top: 25px;
 
 }
-/**/
+/*for photo captions*/
 
 .footnote{
   font-style: italic;
   margin-top: 35px;
   margin-bottom: 35px;
 }
+/*for additonal reporting acknowledgement at the bottom*/
+
 .title {
   color: white;
   background-color: black;
   opacity: .6;
   position: absolute;
-  bottom: -5px;
+  bottom: -10px;
   left: 395px;
   right: 0px;
   font-size: 3.8em;
@@ -65,7 +67,7 @@ p {
   padding-left: 10px;
 
 }
-/**/
+/*for main title*/
 
 
 /**/
@@ -79,21 +81,93 @@ p {
   text-transform: uppercase;
 
 }
-/**/
+/*for red colored word elements*/
 
 .sec-head {
   font-family: 'DM Serif Display', serif;
+  text-transform: uppercase;
   margin-top: 85px;
   margin-bottom: 25px;
   border-bottom: 5px solid red;
   text-align:center;
   font-size: 4em;
 }
-/**/
+/*for section headers*/
 
 .byline-sealine {
   font-family: 'DM Serif Display', serif;
   margin-top: 35px;
   margin-bottom: 35px;
 }
-/**/
+/*for byline styles*/
+
+.body-images{
+  width: 100%
+
+}
+/*styles for body images */
+
+.quote {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align:left;
+  padding-top: 20px 0 20px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top:60px;
+  margin-bottom: 60px;
+}
+/* for pullqotes in story*/
+
+.attribution {
+  font-size: 1em;
+  font-weight: 100;
+  color: black;
+}
+/*for pullquote attribution in story*/
+
+.pop-out-title {
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 5px solid black;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'DM Serif Display', serif;
+}
+/*title for pop-out box*/
+
+.box-intro {
+  padding: 20px 20px 20px 20px;
+}
+/*into paragraph in box*/
+
+.box-content {
+  padding: 10px 10px 10px 10px;
+}
+/* content spacing*/
+
+.bigbox {
+  border: solid ;
+}
+/*bottom box*/
+
+/* All media quieries go at the end */
+@media (max-width: 700px){
+ p{
+   padding-left: 20px;
+   padding-right: 10px;
+ }
+
+ .chapter-head {
+   font-size:1.25em;
+
+ }
+
+ .hed {
+   font-size: 2em;
+ }
+
+ .hero-top {
+   font-size: 2em;
+ }
+}
