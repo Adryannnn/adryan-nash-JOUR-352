@@ -1,0 +1,77 @@
+/*Styles for final project */
+/**/
+/**/
+body{
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 300;
+  line-height: 1.8;
+  margin-left: 0 auto;
+}
+/*for default body elements*/
+
+p {
+  font-size: 2em;
+  color: #00274C;
+}
+/*for body text in container*/
+
+.toolbar{
+  width: 100%;
+}
+/*for top toolbar*/
+
+.title {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: left;
+  background-color: #00274C;
+  color: #FFCB05;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/**/
+
+.top {
+  text-decoration-line: overline;
+  text-decoration-color:#FFCB05;
+}
+
+.bottom{
+  border-bottom: 8px solid #FFCB05;
+}
+
+.byline{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.body-images{
+  width: 100%
+}
+/*styles for body images */
+.caption {
+  font-style: italic;
+  font-size: 1.25em;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 25px;
+
+}
+/*for photo captions*/
+
+.sec-divide {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-bottom: 25px;
+  text-align:left;
+  font-size: 4em;
+  color: #FFCB05;
+  text-shadow: 2px 1.5px #00274C;
+}
+/*for section headers*/
