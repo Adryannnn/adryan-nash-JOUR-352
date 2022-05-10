@@ -10,8 +10,10 @@ body{
 /*for default body elements*/
 
 p {
-  font-size: 2em;
+  font-size: 1em;
   color: #00274C;
+  letter-spacing: 1.25px
+
 }
 /*for body text in container*/
 
@@ -21,32 +23,21 @@ p {
 /*for top toolbar*/
 
 .title {
-  font-family: Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 60px;
-  font-weight: bolder;
-  text-align: left;
-  background-color: #00274C;
-  color: #FFCB05;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
 }
-/**/
+/*for topper/title */
 
-.top {
-  text-decoration-line: overline;
-  text-decoration-color:#FFCB05;
-}
+
 
 .bottom{
   border-bottom: 8px solid #FFCB05;
+  text-align: center;
 }
 
 .byline{
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 1.5em;
 }
 
 
@@ -56,22 +47,115 @@ p {
 /*styles for body images */
 .caption {
   font-style: italic;
-  font-size: 1.25em;
+  font-size: .95em;
+  font-weight:bold;
   margin: 0 auto;
   padding-left: 10px;
-  margin-top: 25px;
-
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 /*for photo captions*/
+
+.quote{
+  font-family: Helvetica, serif, arial;
+  text-transform: uppercase;
+  font-size: 2.15em;
+  font-weight: 700;
+  text-align:left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #00274C;
+}
+/**/
+
+.underline{
+  border-bottom: 3px solid #FFCB05;
+}
+/**/
+
+.attribution{
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+/**/
 
 .sec-divide {
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
-  margin-top: 85px;
-  margin-bottom: 25px;
+  margin-top: 35px;
+  margin-bottom: 15px;
   text-align:left;
   font-size: 4em;
   color: #FFCB05;
   text-shadow: 2px 1.5px #00274C;
 }
 /*for section headers*/
+
+.container-1{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.responsive-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.footer {
+  width: 100%;
+}
+/**/
+
+.search-footer {
+  margin-top: 40px;
+  width: 100%;
+}
+/**/
+
+/* All media quieries go at the end */
+@media (min-width:50px) and (max-width:768px){
+
+body {
+  width: 100%
+
+}
+
+.sec-divide {
+  font-size: 2.5em;
+}
+
+
+
+}
+
+
+@media (min-width:768px)and (max-width:991px){
+
+  .sec-divide {
+    font-size: 3em;
+  }
+}
+
+
+@media (min-width:992px)and (max-width:1199px){
+   {
+
+
+
+
+}
+
+
+@media (min-width:1200px)and (max-width:1280px){
+
+}
