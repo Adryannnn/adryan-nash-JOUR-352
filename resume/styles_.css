@@ -1,20 +1,28 @@
 /* Start of styles for bootstrap exercise */
 
-      html * {
-      font-family: 'Special Elite', cursive;
-      }
+html * {
+font-family: 'Special Elite', cursive;
+}
 
-      .bi {
-        font-size:3em;
-      }
+.bi {
+  font-size:3em;
+}
 
-      .col-md-4 {
-        text-align: center;
+.col-md-4 {
+  text-align: center;
 
-      }
+}
 
-      img {
-        max-width: 100%;
-        max-width: 200px;
-        margin: 0 auto;
-      }
+.column-images {
+  max-width: 100%;
+  width: 90%;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.bottom-cap {
+  font-family: sans-serif;
+  margin: auto 0;
+
+}
+ 
