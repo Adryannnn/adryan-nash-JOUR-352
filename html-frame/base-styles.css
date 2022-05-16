@@ -3,48 +3,42 @@
 /* */
 
 #byline {
-font-weight: bold;
-font-size: 1.75em;
-font-style: italic;
-padding: 20px;
+  font-weight: bold;
+  font-size: 1.75em;
+  font-style: italic;
+  padding: 20px;
 }
 /* */
 
 #story-title {
-font-size: 4em;
-text-align:center;
-padding: 10px 10px;
+  font-size: 4em;
+  text-align:center;
+  padding: 10px 10px;
 }
 /* */
 
 .main-text {
   text-align:justify;
-  margin-left: 100px;
 
 
 }
 
 .IMAGE  {
-  display: block;
   height: 400px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  object-fit: contain;
 
-}
-/* */
-img {
- height: 100%;
- width: 100%;
- object-fit: contain;
 }
 /* */
 
 .section-head  {
   font-size: 1.5em;
   padding: 20px;
+}
+/* */
 
-
+.caption {
+  margin: 0 auto;
 }
 /* */
 
