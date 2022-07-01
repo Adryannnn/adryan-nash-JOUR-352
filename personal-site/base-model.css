@@ -1,4 +1,5 @@
 /* styles for personal site: Adryan Nash */
+
 .background-hero {
   background-image: url("images/black-paint.jpg");
   background-position: center;
@@ -9,6 +10,7 @@
 }
 
 .top-center {
+  color: white;
   text-align: center;
   font-family:'Bebas Neue',serif;
   font-size: 4em;
@@ -16,6 +18,7 @@
 /**/
 .topnav {
 background-color: #0e0a0b;
+padding-top: 15px;
 }
 /**/
 
@@ -41,35 +44,79 @@ padding: 30px 30px;
 background-color: orange;
 }
 /**/
+ p {
+   font-family:'Quicksand', sans-serif;
+ }
+
+
+
+.footer .text-center {
+  color: white;
+  background: #000;
+  height: 100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+  left: 0;
+  bottom: 0;
+}
 
 
 /* media quieries */
-@media (min-width:50px) and (max-width:768px){
+/* small */
+@media (min-width:50px) and (max-width:768px) {
 
-body {
-  width: 100%
+.background-hero {
+  background-size: 70%;
+}
+
+.top-center {
+  font-size: 2.6em;
+}
+
+.topnav {
+  display:inline-flex;
+
 
 }
 
-.sec-divide {
-  font-size: 2.5em;
+
+.topnav a {
+  padding: 5px 20px;
+  font-size: 1.20em;
+
+
+}
+
+.introduction {
+  font-size: 1.7em;
+  text-align:left;
+
+}
+
+.footer .text-center {
+  height: 50px;
+  min-height: 75px;
+  padding-top:25px;
+  margin-top:100px;
+  left: 0;
+  bottom: 0;
+
 }
 
 
-
-}
-
-
+/* medium */
 @media (min-width:768px)and (max-width:991px){
-
-  .sec-divide {
-    font-size: 3em;
+  .background-hero{
+    background-size: 50%;
   }
+
 }
 
 
+/* large */
 @media (min-width:992px)and (max-width:1199px){
-   {
+
 
 
 
@@ -77,6 +124,7 @@ body {
 }
 
 
+/* desktop */
 @media (min-width:1200px)and (max-width:1280px){
 
 }
