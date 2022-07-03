@@ -3,10 +3,10 @@
 .background-hero {
   background-image: url("images/black-paint.jpg");
   background-position: center;
-  background-repeat:repeat;
+  background-repeat:repeat-x;
   background-size: 35%;
   position:relative;
-  min-height: 200px;
+  min-height: 180px;
 }
 
 .top-center {
@@ -63,11 +63,13 @@ background-color: orange;
 
 
 /* media quieries */
+
 /* small */
 @media (min-width:50px) and (max-width:768px) {
 
 .background-hero {
   background-size: 70%;
+  overflow: hidden;
 }
 
 .top-center {
@@ -107,11 +109,11 @@ background-color: orange;
 
 /* medium */
 @media (min-width:768px)and (max-width:991px){
-  .background-hero{
-    background-size: 50%;
-  }
 
-}
+  .background-hero {
+    width: 768px;
+    }
+  }
 
 
 /* large */
