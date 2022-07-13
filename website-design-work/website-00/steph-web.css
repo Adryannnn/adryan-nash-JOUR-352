@@ -3,6 +3,10 @@
 /*
 font-family: 'Arima',serif, cursive; --> for body
 font-family: 'Cormorant Garamond', serif; --> for headings/titles
+#004bad --> blue words
+#fee900 --> yellow words
+#ffde5a --> yellow background from logo
+#36aaed --> OG skyblue color
 */
 
 body {
@@ -17,6 +21,9 @@ body {
 /**/
 
 .top-left {
+font-size: 2em;
+color: #004bad;
+font-weight: 600;
 
 }
 /**/
@@ -27,7 +34,10 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: white;
+
+
+
 }
 /**/
 
@@ -39,11 +49,68 @@ body {
 /**/
 
 .nav-style a {
+text-decoration: none;
+color: #004bad;
+font-size: 1.5em;
 
 }
 /**/
 
-.one-row {
-flex-wrap: nowrap;
+li a:hover {
+  background-color:#36aaed;
+}
+/**/
+
+.hashtag {
+  float: right;
+  align-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4em;
+  padding-top: 1.5em;
+}
+
+
+/**/
+/* media quieries */
+
+/* small */
+@media (min-width:50px) and (max-width:768px) {
+
+  .row-flip {
+  flex-wrap:wrap-reverse;
+  }
+  /**/
+
+  .nav-style a {
+    font-size: .8em;
+  }
+  /**/
+
+.hashtag {
+  font-size: 1.25em;
+  color: #004bad;
+
+
+}
+
+/* medium */
+@media (min-width:768px)and (max-width:991px){
+
+  .nav-style a {
+    font-size: .8em;
+  }
+
+
+}
+
+/* large */
+@media (min-width:992px)and (max-width:1199px){
+
+}
+
+
+/* desktop */
+@media (min-width:1200px)and (max-width:1280px){
+
 }
 /**/
