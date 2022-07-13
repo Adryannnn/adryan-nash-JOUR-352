@@ -1,0 +1,49 @@
+/*Styles for Stephanie Smith's website */
+
+/*
+font-family: 'Arima',serif, cursive; --> for body
+font-family: 'Cormorant Garamond', serif; --> for headings/titles
+*/
+
+body {
+  font-family: 'Arima',serif, cursive;
+}
+/*font for body text*/
+
+.nav-titles {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+}
+/**/
+
+.top-left {
+
+}
+/**/
+
+
+.nav-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+/**/
+
+.nav-style li {
+   display: inline-block;
+   padding: 8px;
+   float:left;
+}
+/**/
+
+.nav-style a {
+
+}
+/**/
+
+.one-row {
+flex-wrap: nowrap;
+}
+/**/
