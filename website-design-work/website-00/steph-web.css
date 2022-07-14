@@ -1,4 +1,4 @@
-/*Styles for Stephanie Smith's website */
+/* Styles for Stephanie Smith's website */
 
 /*
 font-family: 'Arima',serif, cursive; --> for body
@@ -58,15 +58,23 @@ font-size: 1.5em;
 
 li a:hover {
   background-color:#36aaed;
+  padding: 10px 10px;
 }
 /**/
 
+.badge {
+  width: 100%;
+  max-width: 400px;
+}
+
 .hashtag {
   float: right;
-  align-content: center;
+  align-content: right;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4em;
-  padding-top: 1.5em;
+  padding-top: 2.75em;
+  padding-left: 50px;
+  background-color: red;
 }
 
 
@@ -82,13 +90,14 @@ li a:hover {
   /**/
 
   .nav-style a {
-    font-size: .8em;
+    font-size: 1.2em;
   }
   /**/
 
 .hashtag {
   font-size: 1.25em;
-  color: #004bad;
+  text-align: center;
+
 
 
 }
@@ -96,8 +105,8 @@ li a:hover {
 /* medium */
 @media (min-width:768px)and (max-width:991px){
 
-  .nav-style a {
-    font-size: .8em;
+  . {
+    font-size: .2em;
   }
 
 
