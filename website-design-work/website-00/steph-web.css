@@ -20,6 +20,11 @@ body {
 }
 /**/
 
+.row-flip {
+padding-top: 15px;
+
+/**/
+
 .top-left {
 font-size: 2em;
 color: #004bad;
@@ -27,7 +32,6 @@ font-weight: 600;
 
 }
 /**/
-
 
 .nav-style {
   list-style-type: none;
@@ -72,13 +76,16 @@ li a:hover {
   align-content: right;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4em;
-  padding-top: 2.75em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   padding-left: 50px;
   background-color: red;
 }
 
 
 /**/
+
+
 /* media quieries */
 
 /* small */
@@ -89,37 +96,67 @@ li a:hover {
   }
   /**/
 
+  .top-left {
+    text-align: center;
+  }
+
   .nav-style a {
-    font-size: 1.2em;
+    font-size: 1.32em;
   }
   /**/
 
+
 .hashtag {
-  font-size: 1.25em;
+  float: none;
+  text-align: left;
+  font-size: 2.25em;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom:1em;
 
 
 
 }
+
+
 
 /* medium */
-@media (min-width:768px)and (max-width:991px){
+@media (min-width:768px) and (max-width:991px) {
 
-  . {
-    font-size: .2em;
+  .nav-style a {
+    font-size: 56px;
   }
+  /**/
 
+  .hashtag {
+    font-size: 20px;
+    text-align: center;
+}
+
+    .top-left {
+    color: orange;
+    }
 
 }
+
+
 
 /* large */
-@media (min-width:992px)and (max-width:1199px){
+@media (min-width:992px) and (max-width:1199px) {
+
+  .hashtag {
+    font-size: 10px;
+    text-align: center;
+    float: none;
 
 }
+
+
 
 
 /* desktop */
-@media (min-width:1200px)and (max-width:1280px){
+@media (min-width:1200px) and (max-width:1280px) {
+
 
 }
 /**/
