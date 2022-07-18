@@ -20,15 +20,31 @@ body {
 }
 /**/
 
+/**/
+/**/
+/**/
+
+.SUBtitle {
+  font-family: 'Arima',serif, cursive;
+  text-transform: lowercase;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  top: -20px;
+}
+
+
 .row-flip {
 padding-top: 15px;
-
+}
 /**/
 
 .top-left {
 font-size: 2em;
 color: #004bad;
 font-weight: 600;
+line-height: 150%;
+
 
 }
 /**/
@@ -55,7 +71,7 @@ font-weight: 600;
 .nav-style a {
 text-decoration: none;
 color: #004bad;
-font-size: 1.5em;
+font-size: 1.7em;
 
 }
 /**/
@@ -66,19 +82,17 @@ li a:hover {
 }
 /**/
 
-.badge {
-  width: 100%;
-  max-width: 400px;
+.topper-badge {
+width: 300px;
+margin-right: 0px;
 }
 
 .hashtag {
-  float: right;
-  align-content: right;
   font-family: 'Cormorant Garamond', serif;
   font-size: 4em;
-  padding-top: 1em;
+  padding-top: 1.3em;
   padding-bottom: 1em;
-  padding-left: 50px;
+  padding-left: 110px;
   background-color: red;
 }
 
@@ -88,8 +102,8 @@ li a:hover {
 
 /* media quieries */
 
-/* small */
-@media (min-width:50px) and (max-width:768px) {
+/* x-small */
+@media (min-width:0px) and (max-width:550px) {
 
   .row-flip {
   flex-wrap:wrap-reverse;
@@ -98,54 +112,116 @@ li a:hover {
 
   .top-left {
     text-align: center;
+    font-size: 1.7em;
   }
 
   .nav-style a {
-    font-size: 1.32em;
+    font-size: 1.3em;
+    text-align: center;
+
+
   }
   /**/
 
 
 .hashtag {
   float: none;
-  text-align: left;
-  font-size: 2.25em;
+  text-align: center;
+  font-size: 2.2em;
   text-align: center;
   padding-top: 1em;
   padding-bottom:1em;
 
+}
 
+.topper-badge {display:none}
 
 }
+
+
+
+
+/* small */
+@media (min-width:551px) and (max-width:760px) {
+
+  .row-flip {
+  flex-wrap:wrap-reverse;
+  }
+  /**/
+
+.nav-style a {
+  font-size: 3em;
+  text-align: justify;
+  float: left;
+  width: 100%;
+}
+
+.top-left {
+  font-size: 3em;
+  text-align: center;
+}
+
+.hashtag {
+  font-size: 2em;
+
+}
+
+
+
+.topper-badge {display:none}
+
+}
+
+
+
+
+
+
+/* small-medium */
+@media (min-width:761px) and (max-width:990px) {
+
+  .row-flip {
+  flex-wrap:wrap-reverse;
+  }
+  /**/
+
+  .nav-style a {
+    font-size: 8em;
+    text-align: center;
+
+}
+
+
+
 
 
 
 /* medium */
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:991px) and (max-width:1100px) {
+
 
   .nav-style a {
-    font-size: 56px;
+    font-size: 12px;
   }
   /**/
 
   .hashtag {
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: center;
+    margin-left: 150px;
 }
 
-    .top-left {
-    color: orange;
-    }
+
 
 }
 
 
 
 /* large */
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width:1101px) and (max-width:1199px) {
 
   .hashtag {
-    font-size: 10px;
+    font-size: 2em;
     text-align: center;
     float: none;
 
@@ -155,7 +231,7 @@ li a:hover {
 
 
 /* desktop */
-@media (min-width:1200px) and (max-width:1280px) {
+@media (min-width:1200px) and (max-width:1480px) {
 
 
 }
