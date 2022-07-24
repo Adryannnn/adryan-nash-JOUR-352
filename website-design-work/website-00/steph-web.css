@@ -24,7 +24,7 @@ body {
 /**/
 /**/
 
-.SUBtitle {
+.sub-title {
   font-family: 'Arima',serif, cursive;
   text-transform: lowercase;
   font-size: 20px;
@@ -186,7 +186,7 @@ margin-right: 0px;
   /**/
 
   .nav-style a {
-    font-size: 8em;
+    font-size: 1.25em;
     text-align: center;
 
 }
